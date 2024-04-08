@@ -112,16 +112,17 @@ html {
 
 .intro-section {
     font-family: 'League Spartan', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    max-width: 70%;
+    max-width: 80%;
     margin: 10 auto 1em;
     font-size: 1em;
     color: #0c0c0c;
     text-align: left;
     position: relative;
     z-index: 5;
-    top: 10px
+    line-height: 1.5;
+    top: 10px    
 }
 
 .intro-section h2 {
@@ -136,10 +137,10 @@ html {
 }
 
 .intro-section p {
-    font-size: 16px;
+    font-size: 18px;
     color: rgba(15, 15, 15, 1);
     margin-top: 10px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .highlight {
@@ -386,6 +387,7 @@ footer {
     .buttons-container {
         padding-left: 0;
         justify-content: center;
+        
     }
 
     .combined-section {
